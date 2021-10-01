@@ -56,7 +56,7 @@ sides = "left_m"  #"left_m", "right_m", "top"
 The output 2D pixel pose and image with predicted keypoints are stored under ./Keypoints + "sides"
 ![output files](./fig/predicted_files.png)
 #### Project 2D keypoints into 3D Space:
-#####note! this step need to connect Kinect v2 camera.
+##### note! this step need to connect Kinect v2 camera.
 1. Open "CameraSpaceCoordinateMapping_Cattle.py", change "cur_path" to your path.
 ```
 cur_path = "F:/BodyMeasurement/manuscript/gitee-code/"
@@ -70,54 +70,59 @@ depth_side = "TopClouds" #LeftDepth,RightDepth,TopClouds
 ![output files of projection](./fig/projection.png)
 The "sample_3d.csv" is the projected 3D keypoints. "sample_3d_g.csv", "sample_3d_iw.csv", and "sample_3d_o.csv" are the interpolated keypoints, corresponding to the girth, ilumn length and oblique length.
 ### Folder structure and notes
-#####We will make detailed data available after our paper publication, any question please do not hesitate to contact me <s20193081375@cau.edu.cn>.
-gitee_code:
-│  body_measurement.py   //<font color=#008000>bat file for body measurement</font>
-│ CameraSpaceCoordinateMapping_Cattle.py   //<font color=#008000>bat file for projecting 2D points to 3D space  keypoint_measure.exe   </font>
-│  
+##### We will make detailed data available after our paper publication, any question please do not hesitate to contact me <s20193081375@cau.edu.cn>.
+```
+git_code:
+│  body_measurement.py                     //bat file for body measurement
+│  CameraSpaceCoordinateMapping_Cattle.py  //bat file for projecting 2D points to 3D space 
+│  keypoint_measure.exe    //exe file of body measurement
+│  readme.md
+│
+├─fig
+│
 ├─KeyPoints
-│  │  &emsp;CameraSpaceCoordinateMapping_Cattle.py
-│  │  &emsp;CoordinateMapper.exe
-│  │  &emsp;getpose_frame.py
-│  │      
-│  ├─body_measurement-Du-2021-04-23 //<font color=#008000>(deeplabcut project)</font>
-│  │  │  &emsp;config.yaml //
-│  │  │  
-│  │  └─dlc-models//<font color=#008000>(deeplabcut project, including cattle keypoint detector)</font>
-│  │      &emsp;&emsp;&emsp;...
-│  │          
+│  │  CoordinateMapper.exe  //exe file for projecting 2D points to 3D space 
+│  │  getpose_frame.py      //prediction script
+│  │
+│  ├─body_measurement-Du-2021-04-23  //deeplabcut project, including cattle keypoint detector
+│  │  │  config.yaml        //need to change the "project_path"
+│  │  │
+│  │  └─dlc-models
+│  │      └─iteration-0
+│  │        ...
+|  |
 │  ├─left_m
-│  │      &emsp;sample.csv //<font color=#008000> 2D pixel coordinates of keypoints</font>
-│  │      &emsp;sample.png //<font color=#008000>side image</font>
-│  │      &emsp;sample_3d.csv //<font color=#008000> 3D coordinates of keypoints</font>
-│  │      &emsp;sample_3d_g.csv //<font color=#008000>3D coordinates of girth keypoints</font>
-│  │      &emsp;sample_3d_iw.csv //<font color=#008000>3D coordinates of </font>
-│  │      &emsp;sample_3d_o.csv //<font color=#008000>3D coordinates of oblique length points</font>
-│  │      &emsp;sample_t.png  //<font color=#008000> predicted by getpose</font>
-│  │      
-│  ├─right_m  //<font color=#008000>same with files in left_m</font>
-│  │&emsp;&emsp;...
-│  └─top  //<font color=#008000>same with files in left_m</font>
-│  &ensp;&emsp;&emsp;...
-│          
-└─PointCloud
-    ├─LeftDepth
-    │      &emsp;sample.png<font color=#008000> //left depth image, as the input of the  projection fuction</font>
-    │      &emsp;sample_.pcd <font color=#008000> //left side point cloud</font>
-    │      
-    ├─matrices_txt //<font color=#008000> transfom matrix(transfer left view and right view to the top view)</font>
-    │      &emsp;sample_l.txt<font color=#008000> //left to top view</font>
-    │      &emsp;sample_r.txt<font color=#008000> //right to top view</font>
-    │      
+│  │      sample.csv        //2D pixel coordinates of keypoints
+│  │      sample.png        //image of side view
+│  │      sample_3d.csv     //3D coordinates of keypoints
+│  │      sample_3d_g.csv   //3D coordinates of girth keypoints
+│  │      sample_3d_iw.csv  //3D coordinates of illumn points
+│  │      sample_3d_o.csv   //3D coordinates of oblique length points
+│  │      sample_t.png      //predicted by getpose.py
+│  │
+│  ├─right_m  //right side keypoints, same with files in left_m
+│  │
+│  └─top      //top side keypoints, same with files in left_m
+│
+└─PointCloud  //left depth image, as the input of the  projection fuction
+    ├─LeftDepth     //left side point cloud
+    │      sample.png
+    │      sample_.pcd
+    │
+    ├─matrices_txt  //transfom matrix(transfer left view and right view to the top view)
+    │      sample_l.txt    //left to top view
+    │      sample_r.txt    //right to top view
+    │
     ├─RightDepth
-    │      &emsp;sample.png
-    │      &emsp;sample_.pcd
-    │      
+    │      sample.png
+    │      sample_.pcd
+    │
     └─TopClouds
-            &emsp;&emsp;sample.png
-            &emsp;&emsp;sample_.pcd
-            &emsp;&emsp;sample_3d.txt  //<font color=#008000>transfom matrix for pose normalization</font>
+            sample.png
+            sample_.pcd
+            sample_3d.txt  //transfom matrix for pose normalization
 
+```
 
 ### Reference
 * Kinect for Windows SDK v2 Sample Program:
