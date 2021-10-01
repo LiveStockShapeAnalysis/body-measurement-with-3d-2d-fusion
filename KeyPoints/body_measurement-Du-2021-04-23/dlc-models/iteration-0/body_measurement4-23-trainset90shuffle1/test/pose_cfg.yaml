@@ -1,0 +1,59 @@
+all_joints:
+- - 0
+- - 1
+- - 2
+- - 3
+- - 4
+- - 5
+- - 6
+- - 7
+- - 8
+- - 9
+- - 10
+all_joints_names:
+- chest_w
+- ilium_w
+- hip_w
+- withers_h
+- hip_h
+- girth_1
+- girth_2
+- girth_3
+- girth_4
+- ant_humerus
+- post_ischium
+dataset: training-datasets\iteration-0\UnaugmentedDataSet_body_measurement4-23\body_measurement_Du95shuffle1.pickle
+dataset_type: multi-animal-imgaug
+global_scale: 0.8
+init_weights: E:\Anaconda\envs\dlc-gpu\lib\site-packages\deeplabcut\pose_estimation_tensorflow\models\pretrained\resnet_v1_50.ckpt
+location_refinement: true
+locref_stdev: 7.2801
+minconfidence: 0.01
+net_type: resnet_50
+nmsradius: 5.0
+num_joints: 11
+num_limbs: 10
+pairwise_predict: false
+partaffinityfield_graph:
+- - 0
+  - 1
+- - 1
+  - 2
+- - 2
+  - 3
+- - 3
+  - 4
+- - 0
+  - 5
+- - 5
+  - 6
+- - 6
+  - 7
+- - 7
+  - 8
+- - 0
+  - 9
+- - 9
+  - 10
+partaffinityfield_predict: true
+scoremap_dir: test

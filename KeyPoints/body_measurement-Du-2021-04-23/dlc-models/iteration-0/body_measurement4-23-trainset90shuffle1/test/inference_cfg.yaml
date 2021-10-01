@@ -1,0 +1,17 @@
+addlikelihoods: 0.15
+averagescore: 0.1
+boundingboxslack: 0
+detectionthresholdsquare: 0.1
+distnormalization: 1000
+distnormalizationLOWER: 0
+iou_threshold: 0.2
+lowerbound_factor: 0.5
+max_age: 100
+method: m1
+min_hits: 3
+minimalnumberofconnections: 5
+pafthreshold: 0.1
+topktoretain: 1
+upperbound_factor: 1.25
+variant: 0
+withid: false

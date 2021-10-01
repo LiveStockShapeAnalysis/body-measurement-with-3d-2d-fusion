@@ -1,0 +1,795 @@
+    # Project definitions (do not edit)
+Task: body_measurement
+scorer: Du
+date: 4-23
+multianimalproject: true
+
+    # Project path (change when moving around)
+project_path: F:/BodyMeasurement/manuscript/gitee-code//KeyPoints/body_measurement-Du-2021-04-23
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_1_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_2_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_3_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_4_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_5_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_6_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_7_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_8_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_9_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_10_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_11_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_12_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_13_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_14_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_15_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_31_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_32_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_33_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_34_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_35_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_36_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_37_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_38_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_39_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_40_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_41_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_42_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_43_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_44_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_45_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_46_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_47_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_48_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_49_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_50_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_51_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_52_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_53_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_54_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_55_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_1_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_2_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_3_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_4_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_5_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_6_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_7_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_8_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_9_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_10_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_11_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_12_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_13_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_14_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_15_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_31_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_32_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_33_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_34_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_35_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_36_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_37_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_38_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_39_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_40_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_41_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_42_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_43_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_44_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_45_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_46_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_47_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_48_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_49_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_50_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_51_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_52_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_53_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_54_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_55_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_1_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_2_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_3_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_4_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_5_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_6_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_7_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_8_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_9_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_10_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_11_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_12_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_13_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_14_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_15_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_31_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_32_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_33_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_34_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_35_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_36_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_37_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_38_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_39_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_40_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_41_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_42_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_43_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_44_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_45_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_46_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_47_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_48_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_49_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_50_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_51_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_52_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_53_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_54_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_55_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_1_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_2_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_3_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_4_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_5_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_6_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_7_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_8_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_9_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_10_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_11_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_12_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_13_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_14_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_15_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_31_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_32_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_33_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_34_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_35_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_36_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_37_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_38_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_39_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_40_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_41_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_42_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_43_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_44_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_45_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_46_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_47_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_48_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_49_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_50_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_51_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_52_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_53_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_54_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_55_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_56_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_57_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_58_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_59_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_60_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_61_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_62_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_63_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_64_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_56_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_57_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_58_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_59_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_60_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_61_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_62_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_63_cropped.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_64_cropped.mp4:
+    crop: 0, 400, 0, 400
+individuals:
+- individual1
+uniquebodyparts: []
+multianimalbodyparts:
+- chest_w
+- ilium_w
+- hip_w
+- withers_h
+- hip_h
+- girth_1
+- girth_2
+- girth_3
+- girth_4
+- ant_humerus
+- post_ischium
+skeleton:
+- - chest_w
+  - ilium_w
+- - ilium_w
+  - hip_w
+- - hip_w
+  - withers_h
+- - withers_h
+  - hip_h
+- - chest_w
+  - girth_1
+- - girth_1
+  - girth_2
+- - girth_2
+  - girth_3
+- - girth_3
+  - girth_4
+- - chest_w
+  - ant_humerus
+- - ant_humerus
+  - post_ischium
+bodyparts: MULTI!
+start: 0
+stop: 1
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 12
+alphavalue: 0.7
+colormap: plasma
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.90
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: multi-animal-imgaug
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+croppedtraining: true
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
+video_sets_original:
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_1.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_2.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_3.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_4.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_5.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_6.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_7.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_8.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_9.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_10.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_11.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_12.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_13.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_14.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_15.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_31.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_32.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_33.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_34.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_35.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_36.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_37.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_38.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_39.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_40.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_41.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_42.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_43.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_44.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_45.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_46.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_47.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_48.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_49.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_50.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_51.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_52.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_53.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_54.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_55.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_1.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_2.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_3.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_4.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_5.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_6.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_7.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_8.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_9.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_10.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_11.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_12.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_13.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_14.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_15.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_31.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_32.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_33.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_34.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_35.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_36.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_37.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_38.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_39.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_40.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_41.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_42.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_43.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_44.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_45.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_46.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_47.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_48.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_49.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_50.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_51.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_52.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_53.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_54.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_55.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_1.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_2.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_3.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_4.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_5.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_6.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_7.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_8.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_9.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_10.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_11.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_12.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_13.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_14.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_15.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_31.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_32.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_33.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_34.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_35.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_36.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_37.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_38.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_39.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_40.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_41.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_42.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_43.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_44.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_45.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_46.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_47.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_48.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_49.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_50.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_51.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_52.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_53.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_54.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_p_55.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_1.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_2.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_3.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_4.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_5.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_6.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_7.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_8.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_9.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_10.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_11.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_12.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_13.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_14.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_15.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_31.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_32.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_33.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_34.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_35.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_36.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_37.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_38.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_39.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_40.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_41.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_42.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_43.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_44.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_45.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_46.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_47.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_48.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_49.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_50.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_51.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_52.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_53.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_54.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_pf_55.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_56.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_57.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_58.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_59.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_60.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_61.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_62.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_63.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_64.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_56.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_57.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_58.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_59.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_60.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_61.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_62.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_63.mp4:
+    crop: 0, 400, 0, 400
+  F:\DLC_Cow\body_measurement-Du-2021-04-23\VID_f_64.mp4:
+    crop: 0, 400, 0, 400
