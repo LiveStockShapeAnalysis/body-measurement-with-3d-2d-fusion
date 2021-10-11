@@ -4,8 +4,9 @@ Created by <a href="https://github.com/DuAooo" target="_blank">Ao Du</a>, <a hre
 
 
 ### Introduction
-A flexible body measurement method that combines the advantages of 2D and 3D data is proposed. Different from previous measurement methods which use peak values to detect body parts on point clouds, we perform body measurement based on the landmarks of each body measurement. We find the landmarks using the keypoints detector. Utilizing the depth camera, we project the 2D landmarks into 3D space. All the body measurements were calculated using these 3D landmarks on the body surface of livestock. Benefiting from the advances in 2D keypoint detectors, landmarks on livestock point clouds can be quickly detected with less training data. Compared to the previous body measurement methods, our method is more general for different species and body parts of livestock.
-
+ This the program shows our proposed body measurement method.
+ Based on multi-view depth cameras, we use RGB-D data to obtain the body measurements of livestock. We find the landmarks using the keypoints detector and project these landmarks into 3D space. Then all the body measurements can be calculated using geometric method.
+###### We will make detailed data available after our paper publication, any question please do not hesitate to contact me <s20193081375@cau.edu.cn>.
 
 
 ### Prerequisites
@@ -70,7 +71,6 @@ depth_side = "TopClouds" #LeftDepth,RightDepth,TopClouds
 ![output files of projection](./fig/projection.png)
 The "sample_3d.csv" is the projected 3D keypoints. "sample_3d_g.csv", "sample_3d_iw.csv", and "sample_3d_o.csv" are the interpolated keypoints, corresponding to the girth, ilumn length and oblique length.
 ### Folder structure and notes
-##### We will make detailed data available after our paper publication, any question please do not hesitate to contact me <s20193081375@cau.edu.cn>.
 ```
 git_code:
 │  body_measurement.py                     //bat file for body measurement
